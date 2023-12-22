@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from LilyXMusic import YouTube, app
-from LilyXMusic.core.call import Anony
+from LilyXMusic.core.call import Lilyy
 from LilyXMusic.misc import db
 from LilyXMusic.utils.database import get_loop
 from LilyXMusic.utils.decorators import AdminRightsCheck
@@ -48,7 +48,7 @@ async def skip(cli, message: Message, _, chat_id):
                                         ),
                                         reply_markup=close_markup(_),
                                     )
-                                    await Anony.stop_stream(chat_id)
+                                    await Lilyy.stop_stream(chat_id)
                                 except:
                                     return
                                 break
@@ -75,7 +75,7 @@ async def skip(cli, message: Message, _, chat_id):
                     reply_markup=close_markup(_),
                 )
                 try:
-                    return await Anony.stop_stream(chat_id)
+                    return await Lilyy.stop_stream(chat_id)
                 except:
                     return
         except:
@@ -86,7 +86,7 @@ async def skip(cli, message: Message, _, chat_id):
                     ),
                     reply_markup=close_markup(_),
                 )
-                return await Anony.stop_stream(chat_id)
+                return await Lilyy.stop_stream(chat_id)
             except:
                 return
     queued = check[0]["file"]
@@ -112,7 +112,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             image = None
         try:
-            await Anony.skip_stream(chat_id, link, video=status, image=image)
+            await Lilyy.skip_stream(chat_id, link, video=status, image=image)
         except:
             return await message.reply_text(_["call_6"])
         button = stream_markup(_, chat_id)
@@ -145,7 +145,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             image = None
         try:
-            await Anony.skip_stream(chat_id, file_path, video=status, image=image)
+            await Lilyy.skip_stream(chat_id, file_path, video=status, image=image)
         except:
             return await mystic.edit_text(_["call_6"])
         button = stream_markup(_, chat_id)
@@ -165,7 +165,7 @@ async def skip(cli, message: Message, _, chat_id):
         await mystic.delete()
     elif "index_" in queued:
         try:
-            await Anony.skip_stream(chat_id, videoid, video=status)
+            await Lilyy.skip_stream(chat_id, videoid, video=status)
         except:
             return await message.reply_text(_["call_6"])
         button = stream_markup(_, chat_id)
@@ -187,7 +187,7 @@ async def skip(cli, message: Message, _, chat_id):
             except:
                 image = None
         try:
-            await Anony.skip_stream(chat_id, queued, video=status, image=image)
+            await Lilyy.skip_stream(chat_id, queued, video=status, image=image)
         except:
             return await message.reply_text(_["call_6"])
         if videoid == "telegram":
