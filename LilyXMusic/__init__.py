@@ -1,4 +1,4 @@
-from LilyXMusic.core.bot import Anony
+from LilyXMusic.core.bot import Lilyy
 from LilyXMusic.core.dir import dirr
 from LilyXMusic.core.git import git
 from LilyXMusic.core.userbot import Userbot
