@@ -1,26 +1,7 @@
-from LilyXMusic.core.bot import Lilyy
-from LilyXMusic.core.dir import dirr
-from LilyXMusic.core.git import git
-from LilyXMusic.core.userbot import Userbot
-from LilyXMusic.misc import dbb, heroku
-
-from .logging import LOGGER
-
-dirr()
-git()
-dbb()
-heroku()
-
-app = Anony()
-userbot = Userbot()
-
-
-from .platforms import *
-
-Apple = AppleAPI()
-Carbon = CarbonAPI()
-SoundCloud = SoundAPI()
-Spotify = SpotifyAPI()
-Resso = RessoAPI()
-Telegram = TeleAPI()
-YouTube = YouTubeAPI()
+from .Apple import AppleAPI
+from .Carbon import CarbonAPI
+from .Resso import RessoAPI
+from .Soundcloud import SoundAPI
+from .Spotify import SpotifyAPI
+from .Telegram import TeleAPI
+from .Youtube import YouTubeAPI
