@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/cbb9a86f669f2dc4d37e2.jpg" alt="Lily X Music Logo" width="920" height="660">
+  <img src="https://telegra.ph/file/cbb9a86f669f2dc4d37e2.jpg" alt="Lily X Music Logo" width="420" height="660">
 </p>
 
    <p align="center">
