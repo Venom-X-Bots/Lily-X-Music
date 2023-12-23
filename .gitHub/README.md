@@ -1,9 +1,9 @@
 <h2 align="center">
-    ──「 𝐋𝐢𝐥𝐲 ✘ 𝐌𝐮𝐬𝐢𝐜 」──
+       ──「 𝐋𝐢𝐥𝐲 ✘ 𝐌𝐮𝐬𝐢𝐜 」──
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/6b33a55756c8314f9122b.jpg" alt="Lily X Music Logo" width="920" height="660">
+  <img src="https://telegra.ph/file/cbb9a86f669f2dc4d37e2.jpg" alt="Lily X Music Logo" width="920" height="660">
 </p>
 
    <p align="center">
