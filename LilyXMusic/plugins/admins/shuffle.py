@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.misc import db
-from AnonXMusic.utils.decorators import AdminRightsCheck
-from AnonXMusic.utils.inline import close_markup
+from LilyXMusic import app
+from LilyXMusic.misc import db
+from LilyXMusic.utils.decorators import AdminRightsCheck
+from LilyXMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
