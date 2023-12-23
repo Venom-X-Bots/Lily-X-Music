@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from LilyXMusic import app
-from LilyXMusic.core.call import Anony
+from LilyXMusic.core.call import Lilyy
 from LilyXMusic.misc import SUDOERS, db
 from LilyXMusic.utils import AdminRightsCheck
 from LilyXMusic.utils.database import is_active_chat, is_nonadmin_chat
