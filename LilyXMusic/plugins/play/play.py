@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from LilyXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from LilyXMusic.core.call import Anony
+from LilyXMusic.core.call import Lilyy
 from LilyXMusic.utils import seconds_to_min, time_to_seconds
 from LilyXMusic.utils.channelplay import get_channeplayCB
 from LilyXMusic.utils.decorators.language import languageCB
@@ -288,7 +288,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await Anony.stream_call(url)
+                await Lilyy.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(
